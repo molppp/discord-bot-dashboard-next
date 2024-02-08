@@ -23,7 +23,7 @@ export const config: AppConfig = {
   name: 'Demo Bot',
   icon: BotIcon,
   inviteUrl:
-    'https://discord.com/api/oauth2/authorize?client_id=1070011901385375845&permissions=8&scope=bot',
+    'https://discord.com/api/oauth2/authorize?client_id=1205172867696689212&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth%2Fsignin&scope=guilds',
   guild: {
     //filter guilds that user has no permissions to manage it
     filter: (guild) => (Number(guild.permissions) & PermissionFlags.ADMINISTRATOR) !== 0,
