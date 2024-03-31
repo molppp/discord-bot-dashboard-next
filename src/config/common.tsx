@@ -20,7 +20,7 @@ const BotIcon = createIcon({
 });
 
 export const config: AppConfig = {
-  name: 'Demo Bot',
+  name: 'Lcsfr Bot',
   icon: BotIcon,
   inviteUrl:
     'https://discord.com/oauth2/authorize?client_id=1224084614298210397&permissions=8&scope=bot',
