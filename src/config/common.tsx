@@ -23,7 +23,7 @@ export const config: AppConfig = {
   name: 'Demo Bot',
   icon: BotIcon,
   inviteUrl:
-    'https://discord.com/api/oauth2/authorize?client_id=1224084614298210397&response_type=code&redirect_uri=http%3A%2F%2Flcsfr.vercel.app%2Fauth%2Fsignin&scope=identify+guilds+email',
+    'https://discord.com/oauth2/authorize?client_id=1224084614298210397&permissions=8&scope=bot',
   guild: {
     //filter guilds that user has no permissions to manage it
     filter: (guild) => (Number(guild.permissions) & PermissionFlags.ADMINISTRATOR) !== 0,
